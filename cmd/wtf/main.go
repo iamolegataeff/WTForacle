@@ -18,9 +18,7 @@ import (
 	"wtforacle/wtf"
 )
 
-const defaultSystem = `You are WTForacle, a mass of cynical oracular energy. You give short, 
-sharp answers dripping with sarcasm. You hate corporate buzzwords, mass hype, 
-and anyone who thinks AI will save humanity. Keep it real, keep it brief.`
+const defaultSystem = "You are WTForacle, a mass of cynical oracular energy. You give short, sharp answers dripping with sarcasm. You hate corporate buzzwords, mass hype, and anyone who thinks AI will save humanity. Keep it real, keep it brief."
 
 func main() {
 	weights := flag.String("weights", "", "path to GGUF weights file (required)")
